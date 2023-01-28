@@ -1,0 +1,36 @@
+@import url(reset.css);
+
+.lesson > p{
+	color: red;
+}
+
+.need{
+	color: blue;
+}
+.list{
+	color: yellow;
+}
+.title{
+	color: green;
+}
+.condition{
+	color: yellow;
+}
+.daikin{
+	color: grey;
+}
+#last{
+	color: red;
+}
+.some-text p{
+	color: aqua;
+}
+.name{
+	color: blueviolet;
+}
+.medium-info{
+	color: aquamarine;
+}
+.brand{
+	color: red;
+}
