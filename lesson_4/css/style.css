@@ -1,0 +1,125 @@
+@import url(reset.css);
+
+
+/* 
+@import url("https://fonts.googleapis.com/css?family=Rubik:500,900&display:swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display:swap");
+ */
+
+@font-face {
+	font-family: 'Fantasy';
+	src: url('../fonts/Fantasy-Regular.woff2') format('woff2'), url('../fonts/Fantasy-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Fantasy Extruded';
+	src: url('../fonts/FantasyExtruded-Regular.woff2') format('woff2'), url('../fonts/FantasyExtruded-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+} 
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 16px;	
+	font-style: normal;
+	font-weight: 400;
+	line-height: 1.3;
+}
+.header-title{
+	font-family: 'Rubik', sans-serif;
+	font-size: 30px;
+	font-style: italic;
+	font-weight: 900;
+	text-align: center;
+	color: red;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+.page__text{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	font-style: italic;
+	text-align: justify;
+	line-height: 1.8;
+}
+.page-1__title{
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	font-style: italic;
+	text-align: center;
+	color: green;
+}
+.page-1__text{
+	font-family: "Fantasy", sans-serif;
+	font-style: italic;
+	text-align: left;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.page-2__title{
+	font-family: "Rubik", sans-serif;
+	font-size: 20px;
+	color: blue;
+	text-align: right;
+	text-decoration: line-through;
+}
+.page-2__text{
+	font-family: "Roboto Condensed", serif;
+	font-style: normal;
+text-align: left;
+color: blueviolet;
+text-shadow: 2px 2px 5px #000, 5px -2px 10px red;
+line-height: 2;
+}
+.page-3__title{
+	font-family: "Rubik", sans-serif;
+	font-size: 26px;
+	font-weight: 700;
+	color: yellow;
+	letter-spacing: 10px;
+}
+.page-3__text{
+	font-style: italic;
+	text-align: right;
+	font-weight: 900;
+	text-shadow: 3px 4px 5px, -3px -4px -5px;
+	color: aqua;
+}
+.page-4__title{
+	font-family: "Fantasy Extruded", sans-serif;
+	font-size: 18px;
+	text-align: left;
+}
+.page-4__text{
+	font-style: italic;
+	word-spacing: 20px;
+	line-height: 1.8;
+}
+.page-5__title{
+	font-size: 36px;
+	font-style: normal;
+	color: grey;
+	text-indent: 50px;
+}
+.page-5__text{
+	font-family: "Fantasy", sans-serif;
+	color: black;
+	text-decoration: line-through;
+}
+.page-6__title{
+	font-style: normal;
+	font-size: 24px;
+	text-align: right;
+	word-spacing: 20px;
+}
+.page-6__text{
+	font-family: "Rubik", sans-serif;
+	font-size: 22px;
+	letter-spacing: 10px;
+	white-space: nowrap;
+}
