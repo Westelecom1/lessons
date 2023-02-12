@@ -53,9 +53,11 @@ body{
 }
 .foto-2 {
 	margin-right: 30px;
+	max-width: 100%;
 }
 .foto-5{
 	margin-right: 30px;
+	max-width: 100%;
 }
 
 .pic {
