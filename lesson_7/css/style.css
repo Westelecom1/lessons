@@ -35,7 +35,7 @@ margin-bottom: 15px;
 	font-size: 16px;
 	line-height: 0.95;
 	color: #637381;
-	background: #E6E6E6;
+	background: linear-gradient(45deg, rgba(34,193,195,1) 0%, rgba(184,163,24,1) 100%);;
 	padding: 100px;
 }
 .page__container {
