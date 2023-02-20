@@ -1,0 +1,227 @@
+@import url(reset.css);
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,700&display=swap");
+
+
+.article {
+background : url("../img/font.jpg") 50% /cover no-repeat #212529;
+font-family : 'Poppins', sans-serif;
+font-weight : 300;
+font-size : 12px;
+line-height : 1.67;
+color : #E5E5E5;
+}
+.article *:last-child{
+margin-bottom: 0;
+}
+.article__container {
+	max-width : 1240px;
+	margin: 0 auto;
+	padding: 330px 0 100px;
+}
+.article__text {
+	max-width: 605px;
+}
+.article__text p{
+	margin-bottom: 15px;
+}
+.article__title {
+font-weight: 700;
+font-size: 25px;
+line-height: 1.8;
+color: #F8F9FA;
+margin-bottom: 15px;
+}
+
+.page {
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 0.95;
+	color: #637381;
+	background: linear-gradient(187deg, rgba(34,193,195,1) 29%, rgba(37,10,22,0.4430147058823529) 59%);
+	padding: 100px;
+}
+.page__container {
+max-width: 1270px;
+	margin: 0 auto;
+}
+.page__title {
+font-weight: 400;
+font-size: 26px;
+line-height: 1.1;
+margin-bottom: 45px;
+color: #212B36;
+}
+
+.list-1, .list-2, .list-3, .list-4, .list-5, .list-6:not(:last-child){
+	margin-bottom: 60px;
+}
+
+li:not(:last-child) {
+	margin-bottom: 18px;
+}
+
+
+
+.list-1 li::before{
+content: "";
+display: inline-block;
+background: url("../img/icons/01.svg") center no-repeat;
+width: 10px;
+height: 10px;
+margin-right: 20px;
+	
+}
+.list-1 li:hover::before{
+	transform: rotate(360deg) scale(1.5);
+}
+
+.list-2 li::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/02.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+.list-2 li:hover::before{
+	transform: rotate(180deg);
+}
+
+.list-3 li::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/03.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+.list-3 li:hover::before{
+	transform: rotate(-180deg);
+}
+.list-4 li::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/04.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+.list-4 li:hover::before{
+	transform: rotate(-180deg) scale(1.5);
+}
+
+.list-5 li::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/05.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+.list-5 li:hover::before{
+	transform: rotate(360deg);
+}
+.list-6 li::before{
+	content: "";
+	display: inline-block;
+	background: url("../img/icons/06.svg") center no-repeat;
+	width: 20px;
+	height: 20px;
+	margin-right: 20px;
+	transition: all 0.3s;
+}
+.list-6 li:hover::before{
+	transform: rotate(360deg);
+}
+
+
+
+
+.about {
+	background: url("../img/Vector18.png") 90%, url("../img/Vector17.png") 90%;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #F4F7FF;
+}
+.about__container {
+	font-family: "Inter", sans-serif;
+	max-width : 1170px;
+	margin: 0 auto;
+	padding: 145px 0;
+	font-size: 0;
+	
+}
+.about__text {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #637381;
+	max-width: 570px;
+	margin-right: 179px;
+	vertical-align: middle;
+}
+.about__text p{
+	margin-bottom: 35px;
+}
+.image{
+	display : inline-block;
+	max-width: 100%;
+	vertical-align : middle ; 
+}
+.about h3{
+font-weight: 600;
+font-size: 18px;
+line-height: 1.4;
+color: #3056D3;
+margin-bottom: 13px;
+}
+.about h3:hover{
+	text-decoration: underline;
+}
+
+.about__title {
+font-weight: 700;
+max-width: 470px;
+font-size: 36px;
+line-height: 45px;
+color: #212B36;
+margin-bottom: 15px;
+}
+.button {
+color : #ffffff;
+display : inline-block;
+border-radius : 30px;
+padding : 10px 30px;
+background-color : #3056D3;
+}
+.button:hover{
+	color: red;
+	text-decoration: underline;
+	
+}
+
+.footer {
+	max-width: 1170px;
+	margin: 0 auto;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	padding: 15px;
+}
+
+.text p:not(:nth-child(even)){
+	background-color: #3056D3;
+	color: red;
+	margin-bottom: 20px;
+}
+.about > *:last-child{
+	margin-bottom: 0;
+}
