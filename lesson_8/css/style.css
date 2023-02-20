@@ -158,7 +158,7 @@ margin-right: 20px;
 
 
 .about {
-	background: url("../img/Vector18.png") 90%, url("../img/Vector17.png") 90%;
+	background: url("../img/Vector18.png") 90% 0, url("../img/Vector17.png") 90% 0;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #F4F7FF;
