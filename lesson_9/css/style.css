@@ -1,0 +1,78 @@
+@import url(reset.css);
+
+
+
+body{
+	background-color: #F4F7FF;
+}
+.header {
+	max-width: 1270px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+
+}
+.header__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.5;
+	color: red;
+	text-align: center;
+	margin-bottom: 30px;
+}
+.image{
+	max-width: 100%;
+
+}
+.block, .block-1, .block-2 {
+	max-width: 1270px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.content__image{
+	text-align: center;
+	font-size: 0;
+}
+.content__image > :not(:last-child) {
+	margin-bottom: 50px;
+}
+.image-1 > :not(:last-child){
+	margin-right: 30px;
+}
+.image-2 > :not(:last-child){
+	margin-right: 30px;
+}
+.image-3 > :not(:last-child){
+	margin-right: 30px;
+}
+.image-5 > :not(:last-child){
+	margin-right: 30px;
+}
+
+.icon__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.5;
+	color: red;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.content__icon {
+	background: grey;
+}
+
+.content__element {
+	text-align-last: center;
+	background-color: grey;
+}
+.element__title {
+	font-weight: 700;
+	font-size: 25px;
+	line-height: 1.5;
+	text-align: center;
+	color: red;
+	margin-bottom: 30px;
+}
+.block-2{
+	padding-bottom: 20px;
+}
